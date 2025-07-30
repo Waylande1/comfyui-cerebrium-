@@ -1,0 +1,4 @@
+project_name: comfyui-deploy
+runtime: python3.10
+entrypoint: python main.py
+port: 8080
