@@ -1,0 +1,15 @@
+# Core PyTorch (latest stable as of mid-2025 - v2.8.0)
+torch==2.8.0
+torchvision==0.19.0
+torchaudio==2.8.0
+
+# ComfyUI from official repo (auto-installs dependencies)
+git+https://github.com/comfyanonymous/ComfyUI.git
+
+# Optional: Required by some custom nodes or image ops
+numpy
+pillow
+matplotlib  # Often used by nodes, optional
+jupyter     # Optional, for debugging
+onnx        # Optional, for some export features
+tqdm
